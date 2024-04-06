@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+.toolbar button {
+  margin-right: 5px;
+  padding: 10px 20px;
+  background-color: rgb(228, 172, 172);
+  border-radius: 5px;
+  border: 1px solid #2c2c2c;
+  cursor: pointer;
+}
+
+textarea {
+  width: 50%;
+  height: 200px;
+}
+
+div[dangerouslySetInnerHTML] {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
